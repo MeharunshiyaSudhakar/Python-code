@@ -1,0 +1,15 @@
+class MagicalWordsCount():
+ def count_magical_words(self, word_list):
+  c=0
+  for i in word list:
+   upper=any(char.isupper() for char in i)
+   lower=any(char.islower() for char in i)
+   digit=any(char.isdigit() for char in i)
+   if upper and lower and digit:
+    c+=1
+  return c
+
+magical_words_counter = MagicalWordsCount()
+word_list = input().split(" ")
+magical_count = magical_words_counter.count_magical_words (word_list)
+print(magical_count)
