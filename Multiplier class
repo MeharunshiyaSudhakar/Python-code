@@ -1,0 +1,27 @@
+class Multiplier:
+
+def
+
+init_(self,value):
+
+   self.value=value
+
+def multiply(self,number):
+
+return (self.value**2)*number
+
+# Sample input handling
+
+initial_value = int(input().strip())
+
+number_to_multiply = int(input().strip())
+
+# Creating an instance of the Multiplier class
+
+multiplier Multiplier (initial_value)
+
+#Output according to problem statement
+
+result = multiplier.multiply (number_to_multiply)
+
+print(result)
